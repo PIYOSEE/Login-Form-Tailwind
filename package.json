@@ -1,7 +1,13 @@
 {
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.12",
     "tailwindcss": "^4.1.12"
-
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
   }
 }
