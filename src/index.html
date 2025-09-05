@@ -3,20 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+  <link href="output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <div>
+<body class="bg-gradient-to-r from-[#f28383] from 10% via-[#9D6CD2] via-30% to-[#481EDC] to-90% flex items-center justify-center h-screen">
+    <div class="max-w-[960px] bg-black/50">
         <div>
-            <img src="assets/bg_images.jpg" alt=""/>
-            <img src="assets/front_image.jpg" alt=""/>
+            <img src="../assets/bg_images.jpg" alt=""/>
+            <img src="../assets/front_image.jpg" alt=""/>
         </div>
         <div>
             <h1>Login</h1>
             <p>Access to 300+ hours of courses, tutorials and livestreams</p>
             <form action="">
-                
+                <div>
+                    <div>
+                        <i class="fa-solid fa-envelope-open"></i>
+                    </div>
+                    <input type="email" placeholder="Email Address"/>
+                </div>
+                <div>
+                    <div>
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <input type="text" placeholder="password"/>
+                </div>
+                <button>Sign in</button>
             </form>
+            <div>
+                <p>Don't have an account?<a>Sign up</a></p>
+                <p>Forget password?<a>Reset password</a></p>
+                <p>Don't have a password yet?<a>Set password</a></p>
+            </div>
         </div>
     </div>
 </body>
